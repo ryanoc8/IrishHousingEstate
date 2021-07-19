@@ -38,3 +38,5 @@ IrishHousingEstate.*/*.dll
 IrishHousingEstate.*/*.nupkg
 IrishHousingEstate.*/*.ncrunchsolution
 IrishHousingEstate.*/*.dot[Cc]over
+# global init file
+global.json

@@ -1,0 +1,40 @@
+# editors
+.vscode/
+.vs/
+# Directories
+IrishHousingEstate.*/bin/
+IrishHousingEstate.*/obj/
+IrishHousingEstate.*/test_coverage/
+# logs
+IrishHousingEstate/IrishHousingEstate/*.Publish.xml
+# archives
+IrishHousingEstate.*/*.7z
+IrishHousingEstate.*/*.dmg
+IrishHousingEstate.*/*.gz
+IrishHousingEstate.*/*.iso
+IrishHousingEstate.*/*.jar
+IrishHousingEstate.*/*.rar
+IrishHousingEstate.*/*.tar
+IrishHousingEstate.*/*.zip
+# logs for db
+IrishHousingEstate.*/*.log
+# operating system
+IrishHousingEstate.*/.DS_Store?
+IrishHousingEstate.*/ehthumbs.db
+IrishHousingEstate.*/Icon?
+IrishHousingEstate.*/Thumbs.db
+IrishHousingEstate.*/[Bb]in
+IrishHousingEstate.*/[Oo]bj
+IrishHousingEstate.*/[Tt]est[Rr]esults
+IrishHousingEstate.*/*.suo
+IrishHousingEstate.*/*.user
+IrishHousingEstate.*/*.[Cc]ache
+IrishHousingEstate.*/*[Rr]esharper*
+IrishHousingEstate.*/packages
+IrishHousingEstate.*/NuGet.exe
+IrishHousingEstate.*/_[Ss]cripts
+IrishHousingEstate.*/*.exe
+IrishHousingEstate.*/*.dll
+IrishHousingEstate.*/*.nupkg
+IrishHousingEstate.*/*.ncrunchsolution
+IrishHousingEstate.*/*.dot[Cc]over

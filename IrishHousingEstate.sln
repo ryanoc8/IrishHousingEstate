@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrishHousingEstate.ServiceApi", "IrishHousingEstate.ServiceApi\IrishHousingEstate.ServiceApi.csproj", "{735B6841-95FD-4E29-BF8D-86AAEC678401}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrishHousingEstate.ServiceApi", "IrishHousingEstate.ServiceApi\IrishHousingEstate.ServiceApi.csproj", "{735B6841-95FD-4E29-BF8D-86AAEC678401}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrishHousingEstate.WebApp", "IrishHousingEstate.WebApp\IrishHousingEstate.WebApp.csproj", "{A21C8DD2-2574-4E93-8646-F3C4FDAEDC79}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrishHousingEstate.AuthenticationApp", "IrishHousingEstate.AuthenticationApp\IrishHousingEstate.AuthenticationApp.csproj", "{C99D0218-27C2-4416-8344-D0A79711FFD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrishHousingEstate.AuthenticationApp", "IrishHousingEstate.AuthenticationApp\IrishHousingEstate.AuthenticationApp.csproj", "{C99D0218-27C2-4416-8344-D0A79711FFD3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xunit", "xunit", "{126953BC-BC16-4E4A-923A-2ED4E30D3B49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrishHousingEstate.XUnit", "xunit\IrishHousingEstate.XUnit\IrishHousingEstate.XUnit.csproj", "{E9FB7C22-5F8C-4AD6-A893-7AF85A1B9145}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrishHousingEstate.XUnit", "xunit\IrishHousingEstate.XUnit\IrishHousingEstate.XUnit.csproj", "{E9FB7C22-5F8C-4AD6-A893-7AF85A1B9145}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrishHousingEstate.ModelApp", "IrishHousingEstate.ModelApp\IrishHousingEstate.ModelApp.csproj", "{C037BA8D-52FC-4ECC-80F6-81E9E0FE94EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrishHousingEstate.ModelApp", "IrishHousingEstate.ModelApp\IrishHousingEstate.ModelApp.csproj", "{C037BA8D-52FC-4ECC-80F6-81E9E0FE94EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrishHousingEstate.DataAccessApi", "IrishHousingEstate.DataAccessApi\IrishHousingEstate.DataAccessApi.csproj", "{552106B4-B96A-459E-A749-DF602D1E7109}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrishHousingEstate.DataAccessApi", "IrishHousingEstate.DataAccessApi\IrishHousingEstate.DataAccessApi.csproj", "{552106B4-B96A-459E-A749-DF602D1E7109}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrishHousingEstate.WebApp", "IrishHousingEstate.WebApp\IrishHousingEstate.WebApp.csproj", "{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,9 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{735B6841-95FD-4E29-BF8D-86AAEC678401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -42,18 +39,6 @@ Global
 		{735B6841-95FD-4E29-BF8D-86AAEC678401}.Release|x64.Build.0 = Release|Any CPU
 		{735B6841-95FD-4E29-BF8D-86AAEC678401}.Release|x86.ActiveCfg = Release|Any CPU
 		{735B6841-95FD-4E29-BF8D-86AAEC678401}.Release|x86.Build.0 = Release|Any CPU
-		{A21C8DD2-2574-4E93-8646-F3C4FDAEDC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A21C8DD2-2574-4E93-8646-F3C4FDAEDC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A21C8DD2-2574-4E93-8646-F3C4FDAEDC79}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{A21C8DD2-2574-4E93-8646-F3C4FDAEDC79}.Debug|x64.Build.0 = Debug|Any CPU
-		{A21C8DD2-2574-4E93-8646-F3C4FDAEDC79}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{A21C8DD2-2574-4E93-8646-F3C4FDAEDC79}.Debug|x86.Build.0 = Debug|Any CPU
-		{A21C8DD2-2574-4E93-8646-F3C4FDAEDC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A21C8DD2-2574-4E93-8646-F3C4FDAEDC79}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A21C8DD2-2574-4E93-8646-F3C4FDAEDC79}.Release|x64.ActiveCfg = Release|Any CPU
-		{A21C8DD2-2574-4E93-8646-F3C4FDAEDC79}.Release|x64.Build.0 = Release|Any CPU
-		{A21C8DD2-2574-4E93-8646-F3C4FDAEDC79}.Release|x86.ActiveCfg = Release|Any CPU
-		{A21C8DD2-2574-4E93-8646-F3C4FDAEDC79}.Release|x86.Build.0 = Release|Any CPU
 		{C99D0218-27C2-4416-8344-D0A79711FFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C99D0218-27C2-4416-8344-D0A79711FFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C99D0218-27C2-4416-8344-D0A79711FFD3}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -102,8 +87,26 @@ Global
 		{552106B4-B96A-459E-A749-DF602D1E7109}.Release|x64.Build.0 = Release|Any CPU
 		{552106B4-B96A-459E-A749-DF602D1E7109}.Release|x86.ActiveCfg = Release|Any CPU
 		{552106B4-B96A-459E-A749-DF602D1E7109}.Release|x86.Build.0 = Release|Any CPU
+		{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}.Debug|x64.Build.0 = Debug|Any CPU
+		{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}.Debug|x86.Build.0 = Debug|Any CPU
+		{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}.Release|x64.ActiveCfg = Release|Any CPU
+		{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}.Release|x64.Build.0 = Release|Any CPU
+		{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}.Release|x86.ActiveCfg = Release|Any CPU
+		{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E9FB7C22-5F8C-4AD6-A893-7AF85A1B9145} = {126953BC-BC16-4E4A-923A-2ED4E30D3B49}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4E38B4B-F1A0-4E2B-8950-8E11F5ADE37B}
 	EndGlobalSection
 EndGlobal

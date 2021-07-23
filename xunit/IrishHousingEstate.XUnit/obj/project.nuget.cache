@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XmsM8IGJOFmJjkda5PI3ghofuhgvoeLqggcSWOvGWz/IverzchEEqmgGLI06IFs1Vnr6e5thFOvrzwfxchcs8w==",
+  "dgSpecHash": "eGjtqygiXnmf0hwt8XgH6NtOFeg9d9n+IzWrA74ZFxZddvNxtgM6x1OIGRmIYP0VpUE9eJzjTFVFoT7iE8eIFw==",
   "success": true,
   "projectFilePath": "E:\\source\\repos-1\\dotnet\\IrishHousingEstate\\xunit\\IrishHousingEstate.XUnit\\IrishHousingEstate.XUnit.csproj",
   "expectedPackageFiles": [

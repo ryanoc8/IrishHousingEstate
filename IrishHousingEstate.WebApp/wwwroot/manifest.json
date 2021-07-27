@@ -1,6 +1,6 @@
 {    
-  "name": "IrishHousingEstate",    
-  "short_name": "Housing",    
+  "name": "Irish Housing Estate",    
+  "short_name": "IHE",    
   "description": "Cached Irish Housing Estate application.",    
   "icons": [    
     {  

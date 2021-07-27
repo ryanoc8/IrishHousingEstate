@@ -33,26 +33,23 @@ namespace IrishHousingEstate.WebApp.Controllers
             _signInManager = signInManager;
         }
 
-        [HttpGet("/")]
+        [Route("/")]
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
 
-        [HttpGet("/icons")]
-        public IActionResult Icons()
-        {
-            return View();
-        }
-
-        [HttpGet("/maps")]
+        [Route("/maps/")]
+        [HttpGet]
         public IActionResult Maps()
         {
             return View();
         }
 
         [ImportModelState]
-        [HttpGet("/profile")]
+        [Route("/profile/")]
+        [HttpGet]
         public async Task<IActionResult> Profile()
         {
             var user = await _userManager.GetUserAsync(User);
@@ -70,7 +67,8 @@ namespace IrishHousingEstate.WebApp.Controllers
         }
 
         [ExportModelState]
-        [HttpPost("/profile")]
+        [Route("/profile/")]
+        [HttpPost]
         public async Task<IActionResult> UpdateProfile(
             [FromForm]
             ProfileViewModel input)
@@ -119,25 +117,15 @@ namespace IrishHousingEstate.WebApp.Controllers
             return RedirectToAction(nameof(Profile));
         }
 
-        [HttpGet("/tables")]
-        public IActionResult Tables()
-        {
-            return View();
-        }
-        
-        [HttpGet("/upgrade")]
-        public IActionResult Upgrade()
-        {
-            return View();
-        }
-
-        [HttpGet("/privacy")]
+        [Route("/privacy")]
+        [HttpGet]
         public IActionResult Privacy()
         {
             return View();
         }
 
-        [HttpPost("/logout")]
+        [Route("/logout")]
+        [HttpPost]
         public async Task<IActionResult> Logout(string returnUrl = null)
         {
             await _signInManager.SignOutAsync();
@@ -152,14 +140,16 @@ namespace IrishHousingEstate.WebApp.Controllers
             }
         }
 
-        [HttpGet("/error")]
+        [Route("/error")]
+        [HttpGet]
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        [HttpGet("/status-code")]
+        [Route("/status-code")]
+        [HttpGet]
         public IActionResult StatusCodeHandler(int code)
         {
             ViewBag.StatusCode = code;

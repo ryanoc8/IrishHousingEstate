@@ -167,15 +167,15 @@ namespace IrishHousingEstate.WebApp
             services.AddHostedService<DbSeederHostedService>();
 
             // PWA activation https://github.com/madskristensen/WebEssentials.AspNetCore.ServiceWorker
-            services.AddProgressiveWebApp(new PwaOptions 
+            services.AddProgressiveWebApp(new PwaOptions
             {
                 CacheId = "Worker 0.0.1",
                 Strategy = ServiceWorkerStrategy.CacheFirst,
-                RoutesToPreCache = "/login, /profile",
+                RoutesToPreCache = "/login/, /profile/, /maps/",
                 OfflineRoute = "login.html",
                 RegisterServiceWorker = true,
                 RegisterWebmanifest = true
-            });
+            }); ;
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -213,7 +213,7 @@ namespace IrishHousingEstate.WebApp
             app.UseEndpoints(eb =>
             {
                 eb.MapRazorPages();
-                eb.MapControllerRoute("default", "{controller=home}/{action=index}/{id?}");
+                eb.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

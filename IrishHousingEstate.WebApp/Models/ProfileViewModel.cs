@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CreativeTim.Argon.DotNetCore.Free.Models
+namespace IrishHousingEstate.WebApp.Models
 {
     public class ProfileViewModel
     {

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Newtonsoft.Json;
 
-namespace CreativeTim.Argon.DotNetCore.Free.Infrastructure.ErrorHandling
+namespace IrishHousingEstate.WebApp.Infrastructure.ErrorHandling
 {
     public static class ModelStateHelpers
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CreativeTim.Argon.DotNetCore.Free.Infrastructure.ErrorHandling
+namespace IrishHousingEstate.WebApp.Infrastructure.ErrorHandling
 {
     public class ModelStateTransferValue
     {

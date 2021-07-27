@@ -1,6 +1,6 @@
 using System;
 
-namespace CreativeTim.Argon.DotNetCore.Free.Models
+namespace IrishHousingEstate.WebApp.Models
 {
     public class ErrorViewModel
     {

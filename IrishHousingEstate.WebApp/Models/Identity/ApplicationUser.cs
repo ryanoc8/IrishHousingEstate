@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Identity;
 
-namespace CreativeTim.Argon.DotNetCore.Free.Models.Identity
+namespace IrishHousingEstate.WebApp.Models.Identity
 {
     public class ApplicationUser : IdentityUser
     {

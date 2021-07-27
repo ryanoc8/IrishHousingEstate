@@ -1,4 +1,4 @@
-﻿namespace CreativeTim.Argon.DotNetCore.Free.Infrastructure.AppSettingsModels
+﻿namespace IrishHousingEstate.WebApp.Infrastructure.AppSettingsModels
 {
     public class ScriptTags
     {   

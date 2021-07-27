@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace CreativeTim.Argon.DotNetCore.Free.Data.Migrations
+namespace IrishHousingEstate.WebApp.Data.Migrations
 {
     public partial class InitialCreate : Migration
     {

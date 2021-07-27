@@ -1,9 +1,9 @@
-﻿using CreativeTim.Argon.DotNetCore.Free.Models.Identity;
+﻿using IrishHousingEstate.WebApp.Models.Identity;
 using Microsoft.AspNetCore.DataProtection.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace CreativeTim.Argon.DotNetCore.Free.Data
+namespace IrishHousingEstate.WebApp.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>, IDataProtectionKeyContext
     {

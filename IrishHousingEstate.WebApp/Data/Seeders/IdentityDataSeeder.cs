@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace CreativeTim.Argon.DotNetCore.Free.Data.Seeders
+namespace IrishHousingEstate.WebApp.Data.Seeders
 {
     public static class IdentityDataSeeder<TIdentityUser, TIdentityRole>
         where TIdentityUser : IdentityUser, new()

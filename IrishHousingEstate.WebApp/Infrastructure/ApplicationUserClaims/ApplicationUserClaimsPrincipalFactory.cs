@@ -1,10 +1,10 @@
 ﻿using System.Security.Claims;
 using System.Threading.Tasks;
-using CreativeTim.Argon.DotNetCore.Free.Models.Identity;
+using IrishHousingEstate.WebApp.Models.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 
-namespace CreativeTim.Argon.DotNetCore.Free.Infrastructure.ApplicationUserClaims
+namespace IrishHousingEstate.WebApp.Infrastructure.ApplicationUserClaims
 {
     public class ApplicationUserClaimsPrincipalFactory : UserClaimsPrincipalFactory<ApplicationUser, IdentityRole>
     {

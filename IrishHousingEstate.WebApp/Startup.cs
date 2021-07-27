@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
-using CreativeTim.Argon.DotNetCore.Free.Data;
-using CreativeTim.Argon.DotNetCore.Free.Infrastructure;
-using CreativeTim.Argon.DotNetCore.Free.Infrastructure.ApplicationUserClaims;
-using CreativeTim.Argon.DotNetCore.Free.Infrastructure.AppSettingsModels;
-using CreativeTim.Argon.DotNetCore.Free.Models.Identity;
+using IrishHousingEstate.WebApp.Data;
+using IrishHousingEstate.WebApp.Infrastructure;
+using IrishHousingEstate.WebApp.Infrastructure.ApplicationUserClaims;
+using IrishHousingEstate.WebApp.Infrastructure.AppSettingsModels;
+using IrishHousingEstate.WebApp.Models.Identity;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.DataProtection;
@@ -18,10 +18,10 @@ using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using CreativeTim.Argon.DotNetCore.Free.Infrastructure.Startup;
+using IrishHousingEstate.WebApp.Infrastructure.Startup;
 using WebEssentials.AspNetCore.Pwa;
 
-namespace CreativeTim.Argon.DotNetCore.Free
+namespace IrishHousingEstate.WebApp
 {
     public class Startup
     {
@@ -87,7 +87,7 @@ namespace CreativeTim.Argon.DotNetCore.Free
 
             services.ConfigureApplicationCookie(options =>
             {
-                options.Cookie.Name = "CreativeTim.Argon.DotNetCore.AppCookie";
+                options.Cookie.Name = "IrishHousingEstate.WebApp.AppCookie";
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
                 // You might want to only set the application cookies over a secure connection:
@@ -152,7 +152,7 @@ namespace CreativeTim.Argon.DotNetCore.Free
             {
                 // Set a short timeout for easy testing.
                 options.IdleTimeout = TimeSpan.FromMinutes(60);
-                options.Cookie.Name = "CreativeTim.Argon.DotNetCore.SessionCookie";
+                options.Cookie.Name = "IrishHousingEstate.WebApp.SessionCookie";
                 // You might want to only set the application cookies over a secure connection:
                 // options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
                 options.Cookie.SameSite = SameSiteMode.Strict;

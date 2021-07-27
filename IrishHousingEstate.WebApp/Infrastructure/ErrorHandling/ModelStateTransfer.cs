@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace CreativeTim.Argon.DotNetCore.Free.Infrastructure.ErrorHandling
+namespace IrishHousingEstate.WebApp.Infrastructure.ErrorHandling
 {
     public abstract class ModelStateTransfer : ActionFilterAttribute
     {

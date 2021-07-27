@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace CreativeTim.Argon.DotNetCore.Free.Infrastructure.ErrorHandling
+namespace IrishHousingEstate.WebApp.Infrastructure.ErrorHandling
 {
     public class ExportModelStateAttribute : ModelStateTransfer
     {

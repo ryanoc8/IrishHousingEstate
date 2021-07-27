@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrishHousingEstate.ServiceApi", "IrishHousingEstate.ServiceApi\IrishHousingEstate.ServiceApi.csproj", "{735B6841-95FD-4E29-BF8D-86AAEC678401}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrishHousingEstate.AuthenticationApp", "IrishHousingEstate.AuthenticationApp\IrishHousingEstate.AuthenticationApp.csproj", "{C99D0218-27C2-4416-8344-D0A79711FFD3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xunit", "xunit", "{126953BC-BC16-4E4A-923A-2ED4E30D3B49}"
@@ -17,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrishHousingEstate.DataAcce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrishHousingEstate.WebApp", "IrishHousingEstate.WebApp\IrishHousingEstate.WebApp.csproj", "{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrishHousingEstate.ServiceApi", "IrishHousingEstate.ServiceApi\IrishHousingEstate.ServiceApi.csproj", "{72AB9AC0-5DC0-433A-9D02-EB041D7D8CEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,18 +27,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{735B6841-95FD-4E29-BF8D-86AAEC678401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{735B6841-95FD-4E29-BF8D-86AAEC678401}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{735B6841-95FD-4E29-BF8D-86AAEC678401}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{735B6841-95FD-4E29-BF8D-86AAEC678401}.Debug|x64.Build.0 = Debug|Any CPU
-		{735B6841-95FD-4E29-BF8D-86AAEC678401}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{735B6841-95FD-4E29-BF8D-86AAEC678401}.Debug|x86.Build.0 = Debug|Any CPU
-		{735B6841-95FD-4E29-BF8D-86AAEC678401}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{735B6841-95FD-4E29-BF8D-86AAEC678401}.Release|Any CPU.Build.0 = Release|Any CPU
-		{735B6841-95FD-4E29-BF8D-86AAEC678401}.Release|x64.ActiveCfg = Release|Any CPU
-		{735B6841-95FD-4E29-BF8D-86AAEC678401}.Release|x64.Build.0 = Release|Any CPU
-		{735B6841-95FD-4E29-BF8D-86AAEC678401}.Release|x86.ActiveCfg = Release|Any CPU
-		{735B6841-95FD-4E29-BF8D-86AAEC678401}.Release|x86.Build.0 = Release|Any CPU
 		{C99D0218-27C2-4416-8344-D0A79711FFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C99D0218-27C2-4416-8344-D0A79711FFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C99D0218-27C2-4416-8344-D0A79711FFD3}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -99,6 +87,18 @@ Global
 		{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}.Release|x64.Build.0 = Release|Any CPU
 		{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}.Release|x86.ActiveCfg = Release|Any CPU
 		{5F0486F0-4DEB-4AAA-9793-A32AA6BF332C}.Release|x86.Build.0 = Release|Any CPU
+		{72AB9AC0-5DC0-433A-9D02-EB041D7D8CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72AB9AC0-5DC0-433A-9D02-EB041D7D8CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72AB9AC0-5DC0-433A-9D02-EB041D7D8CEB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{72AB9AC0-5DC0-433A-9D02-EB041D7D8CEB}.Debug|x64.Build.0 = Debug|Any CPU
+		{72AB9AC0-5DC0-433A-9D02-EB041D7D8CEB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{72AB9AC0-5DC0-433A-9D02-EB041D7D8CEB}.Debug|x86.Build.0 = Debug|Any CPU
+		{72AB9AC0-5DC0-433A-9D02-EB041D7D8CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72AB9AC0-5DC0-433A-9D02-EB041D7D8CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72AB9AC0-5DC0-433A-9D02-EB041D7D8CEB}.Release|x64.ActiveCfg = Release|Any CPU
+		{72AB9AC0-5DC0-433A-9D02-EB041D7D8CEB}.Release|x64.Build.0 = Release|Any CPU
+		{72AB9AC0-5DC0-433A-9D02-EB041D7D8CEB}.Release|x86.ActiveCfg = Release|Any CPU
+		{72AB9AC0-5DC0-433A-9D02-EB041D7D8CEB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
